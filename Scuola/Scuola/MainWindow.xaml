@@ -16,6 +16,7 @@
         <Label Content="cognome" HorizontalAlignment="Left" Margin="35,109,0,0" VerticalAlignment="Top"/>
         <TextBox HorizontalAlignment="Left" Margin="141,144,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label Content="eta" HorizontalAlignment="Left" Margin="35,144,0,0" VerticalAlignment="Top"/>
+        <Label Content="alunni presenti :   0/1000" HorizontalAlignment="Left" Margin="325,70,0,0" VerticalAlignment="Top" Width="140"/>
 
     </Grid>
 </Window>
