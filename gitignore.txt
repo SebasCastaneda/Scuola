@@ -1,0 +1,398 @@
+# # Ignora i file temporanei di Visual Studio, compila i risultati e
+# # file generati dai più diffusi componenti aggiuntivi di Visual Studio.
+# #
+# # Ricevi le ultime da https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
+
+# File specifici dell'utente
+* .rsuser
+* .suo
+* .utente
+* .userscache
+* .sln.docstates
+
+# File specifici dell'utente (MonoDevelop/Xamarin Studio)
+* .preferenze utente
+
+# File generati automaticamente in mono
+mono_crash. *
+
+# Crea risultati
+[ Dd ] ebug /
+[ Dd ] ebugPublic /
+[ Rr ] libera /
+[ Rr ] libera /
+x64 /
+x86 /
+[ Ww ][ Ii ][ Nn ] 32 /
+[ Aa ][ Rr ][ Mm ]/
+[ Aa ][ Rr ][ Mm ] 64 /
+nero /
+[ Sib ] in /
+[ Oo ] bj /
+[ Ll ] e /
+[ Ll ] ogs /
+
+# Directory cache/opzioni di Visual Studio 2015/2017
+.vs /
+# Decommenta se hai attività che creano i file statici del progetto in wwwroot
+# wwwroot/
+
+# File generati automaticamente di Visual Studio 2017
+Generato \ File /
+
+# Risultati del test MSTest
+[ Tt ] est [ Rr ] esult * /
+[ Bb ] uild [ Ll ] og. *
+
+# NUnità
+* .VisualState.xml
+TestResult.xml
+nunit- * .xml
+
+# Costruisci i risultati di un progetto ATL
+[ Dd ] ebugPS /
+[ Rr ] eleasePS /
+dlldata.c
+
+# Risultati benchmark
+BenchmarkDotNet.Artefatti /
+
+# .NET Core
+project.lock.json
+project.frammento.lock.json
+manufatti /
+
+# Ponteggi ASP.NET
+ScaffoldingReadMe.txt
+
+# Poliziotto di stile
+StyleCopReport.xml
+
+# File creati da Visual Studio
+* _i.c
+* _p.c
+* _h.h
+* .ilk
+* .meta
+* .oggetto
+* .iogg
+* .pch
+* .pdb
+* .ipdb
+* .pgc
+* .pgd
+* .rsp
+* .sbr
+* .tlb
+* .tli
+* .tlh
+* .tmp
+* .tmp_proj
+* _wpftmp.csproj
+* .log
+* .tlog
+* .vspscc
+* .vssscc
+.costruisce
+* .pidb
+* .svclog
+* .scc
+
+# File di prova di Chutzpah
+_Chutzpah *
+
+# File di cache di Visual C++
+ipch /
+* .aps
+* .ncb
+* .opendb
+* .opensdf
+* .sdf
+* .file di cache
+* .VC.db
+* .VC.VC.opendb
+
+# Profilatore di Visual Studio
+* .pss
+* .vsp
+* .vspx
+* .sap
+
+# File di traccia di Visual Studio
+* .e2e
+
+# TFS 2012 Area di lavoro locale
+$tf /
+
+# Toolkit di automazione della guida
+* .gpState
+
+# ReSharper è un componente aggiuntivo di codifica .NET
+_ReSharper * /
+* . [ Rr ] e [ Ss ] arpista
+* .DotSettings.user
+
+# TeamCity è un componente aggiuntivo di build
+_TeamCity *
+
+# DotCover è uno strumento di copertura del codice
+* .dotCover
+
+# AxoCover è uno strumento di copertura del codice
+.axoCover / *
+! .axoCover / settings.json
+
+# Coverlet è uno strumento di copertura del codice gratuito e multipiattaforma
+copertura * .json
+copertura * .xml
+copertura * .info
+
+# Risultati della copertura del codice di Visual Studio
+* .copertura
+* .coveragexml
+
+# NCrunch
+_NCrunch_ *
+. * crunch * .local.xml
+nCrunchTemp_ *
+
+# MightyMoose
+* mm. *
+Autotest.Net /
+
+# Banco di lavoro Web (sass)
+.sass-cache /
+
+# Cartella di output Installshield
+[ Ee ] xpress /
+
+# DocProject è un componente aggiuntivo per la generazione di documentazione
+DocProject / buildhelp /
+DocProject / Aiuto / * .HxT
+DocProject / Aiuto / * .HxC
+DocProject / Aiuto / * .hhc
+DocProject / Aiuto / * .hk
+DocProject / Guida / * .hp
+DocProject / Aiuto / Html2
+DocProject / Aiuto / html
+
+# Directory Click-Once
+pubblica /
+
+# Pubblica output Web
+* . [ Pp ] ublish.xml
+* .azurePubxml
+# Nota: commenta la riga successiva se desideri controllare le impostazioni di distribuzione web,
+# ma le stringhe di connessione al database (con potenziali password) non saranno crittografate
+* .pubxml
+* .publishproj
+
+# Impostazioni di pubblicazione dell'app Web Microsoft Azure. Commenta la riga successiva se vuoi
+# controlla le impostazioni di pubblicazione dell'app Web di Azure, ma le informazioni riservate contenute
+# in questi script non sarà crittografato
+PubblicaScript /
+
+# Pacchetti NuGet
+* .nupkg
+# Pacchetti di simboli NuGet
+* .snupkg
+# La cartella dei pacchetti può essere ignorata a causa di Package Restore
+** /[ Pp ] ackage / *
+# tranne build/, che viene utilizzato come destinazione MSBuild.
+! ** /[ Pp ] ackage / build /
+# Decommenta se necessario, tuttavia generalmente verrà rigenerato quando necessario
+# !**/[Pp]ackages/repositories.config
+# I file project.json di NuGet v3 producono file più ignorabili
+* .nuget.props
+* .nuget.target
+
+# Output di compilazione di Microsoft Azure
+csx /
+* .build.csdef
+
+# Emulatore Microsoft Azure
+ecf /
+rcf /
+
+# Directory e file del pacchetto dell'app di Windows Store
+Pacchetti App /
+Bundle Artefatti /
+Package.StoreAssociation.xml
+_pkginfo.txt
+* .appx
+* .appxbundle
+* .appxupload
+
+# File di cache di Visual Studio
+# i file che terminano con .cache possono essere ignorati
+* . [ Cc ] male
+# ma tieni traccia delle directory che terminano con .cache
+! ?* . [ Cc ] dolore /
+
+# Altri
+ClienteBin /
+~$ *
+* ~
+* .dbmdl
+* .dbproj.schemaview
+* .jfm
+* .pfx
+* .impostazioni di pubblicazione
+orleans.codegen.cs
+
+# L'inclusione di file con nomi sicuri può rappresentare un rischio per la sicurezza
+# (https://github.com/github/gitignore/pull/2483#issue-259490424)
+# *.snk
+
+# Poiché ci sono più flussi di lavoro, decommenta la riga successiva per ignorare bower_components
+# (https://github.com/github/gitignore/pull/1529#issuecomment-104372622)
+# componenti_bower/
+
+# Progetti RIA/Silverlight
+Codice_Generato /
+
+# File di backup e report dalla conversione di un vecchio file di progetto
+# a una versione più recente di Visual Studio. I file di backup non sono necessari,
+# perché abbiamo git ;-)
+_UpgradeReport_File /
+Backup * /
+Registro di aggiornamento * .XML
+UpgradeLog * .htm
+ServiceFabricBackup /
+* .rptproj.bak
+
+# File di SQL Server
+* .mdf
+* .ldf
+* .ndf
+
+# Progetti di business intelligence
+* .rdl.dati
+* .bim.layout
+* .bim_ * .impostazioni
+* .rptproj.rsuser
+* - [ Sib ] ackup.rdl
+* - [ Sib ] ackup  ( [ 0-9 ] ).rdl
+* - [ Sib ] ackup  ( [ 0-9 ][ 0-9 ] ).rdl
+
+# Falsi Microsoft
+FakesAssemblies /
+
+# File di impostazione del plug-in GhostDoc
+* .GhostDoc.xml
+
+# Strumenti Node.js per Visual Studio
+.ntvs_analysis.dat
+moduli_nodo /
+
+# Registro di compilazione di Visual Studio 6
+* .plg
+
+# File delle opzioni dell'area di lavoro di Visual Studio 6
+* .opz
+
+# File dell'area di lavoro generato automaticamente da Visual Studio 6 (contiene i file aperti, ecc.)
+* .vbw
+
+# File di progetto generato automaticamente da Visual Studio 6 (contiene i file aperti, ecc.)
+* .vbp
+
+# Area di lavoro di Visual Studio 6 e file di progetto (file di progetto di lavoro contenenti file da includere nel progetto)
+* .dsw
+* .dsp
+
+# File tecnici di Visual Studio 6
+* .ncb
+* .aps
+
+# Output di compilazione di Visual Studio LightSwitch
+** / * .HTMLClient / Artefatti generati
+** / * .DesktopClient / Artefatti generati
+** / * .DesktopClient / ModelManifest.xml
+** / * .Server / Artefatti generati
+** / * .Server / ModelManifest.xml
+_Pvt_Estensioni
+
+# Gestore delle dipendenze dei pacchetti
+.paket / paket.exe
+file-packet /
+
+# FALSO - FA# Crea
+.falso /
+
+# Impostazioni personali di CodeRush
+.cr / personale
+
+# Strumenti Python per Visual Studio (PTVS)
+__pycache__ /
+* .pic
+
+# Torta - Togli il commento se la stai usando
+# strumenti/**
+# !tools/packages.config
+
+# Studio delle schede
+* .tss
+
+# File di configurazione JustMock di Telerik
+* .jmconfig
+
+# Output di compilazione BizTalk
+* .btp.cs
+* .btm.cs
+* .odx.cs
+* .xsd.cs
+
+# Risultati dell'analisi dell'interfaccia utente di OpenCover
+ApriCover /
+
+# Output dell'esecuzione locale di Analisi di flusso di Azure
+ASALocalRun /
+
+# Registro strutturato e binario MSBuild
+* .binlog
+
+# File di configurazione del debugger GPU NVidia Nsight
+* .nvuser
+
+# Cartella di lavoro MFractors (strumento di produttività Xamarin).
+.mfractor /
+
+# Cronologia locale per Visual Studio
+.localhistory /
+
+# File della cronologia di Visual Studio (VSHistory).
+.vstory /
+
+# BeatPulse database temporaneo di controllo dello stato di salute
+healthchecksdb
+
+# Cartella di backup per lo strumento Converti riferimento pacchetto in Visual Studio 2017
+Migrazione Backup /
+
+# Cartella di lavoro Ionide (strumenti F# VS Code multipiattaforma).
+.ionide /
+
+# Fody: schema XML generato automaticamente
+FodyWeavers.xsd
+
+# File di codice VS per chi lavora su più strumenti
+.vscode / *
+! .vscode / settings.json
+! .vscode / task.json
+! .vscode / launch.json
+! .vscode / extensions.json
+* .code-spazio di lavoro
+
+# Cronologia locale per il codice di Visual Studio
+.storia /
+
+# File di Windows Installer dagli output di compilazione
+* .cabina
+* .msi
+* .msix
+* .msm
+* .msp
+
+# Pilota JetBrains
+* .sln.iml

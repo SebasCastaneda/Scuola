@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0T/If/pANICjg78OuY0nWXr/ibHTdQs8C32VZhN+TKV6YNeN1OuqcOHIa2UvjSqwoVdgKV/4enufvocgH38dUA==",
+  "success": true,
+  "projectFilePath": "Z:\\Compito\\Scuola\\Scuola\\Scuola.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\carlos.soto\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.17\\microsoft.netcore.app.host.win-x64.3.1.17.nupkg.sha512"
+  ],
+  "logs": []
+}
