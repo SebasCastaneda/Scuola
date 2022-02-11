@@ -19,6 +19,7 @@ namespace Scuola
             Ore = ore;
         }
 
-        //ciao
+        ///cioa2.0
+        ///
     }
 }
