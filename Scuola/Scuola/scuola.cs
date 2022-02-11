@@ -18,6 +18,7 @@ namespace Scuola
             Cognome = cognome;
             Ore = ore;
         }
-
+        ///cioa2.0
+        ///
     }
 }
