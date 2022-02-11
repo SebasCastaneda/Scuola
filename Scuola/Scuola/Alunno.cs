@@ -8,6 +8,8 @@ namespace Scuola
     {
         //con questo metodo puo calcolare in che classe appartien un alunno.
         //ciao
+        //modifioc da gitHub
+        
 
         public string ANNO (int eta)
             {
