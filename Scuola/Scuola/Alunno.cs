@@ -6,7 +6,7 @@ namespace Scuola
 {
     class Alunno
     {
-
+        //con questo metodo puo calcolare in che classe appartien un alunno.
 
         public string ANNO (int eta)
             {
